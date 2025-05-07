@@ -19,7 +19,7 @@ const Questionlist = () => {
         {
             Quetions.map((q, i) => (
                 <li key={i} className="flex gap-3 leading-8 text-xs font-bold">
-                    <p>{i + 1}</p>
+                    <p className={`${i + 1 == 1 ? 'bg-green-600' : ''} text-white`}>{i + 1}</p>
                     <p>{q}</p>
                 </li>
             ))

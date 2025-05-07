@@ -1,4 +1,4 @@
-export interface MessageType {
+export interface ChatsType {
     role: 'user' | 'assistant';
     content: string;
 }

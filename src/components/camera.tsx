@@ -1,4 +1,5 @@
 import Webcam from "react-webcam";
+import Interviewer from "./interviewer";
 
 const Camera = () => {
     const videoConstraints = {
@@ -16,6 +17,7 @@ const Camera = () => {
                 videoConstraints={videoConstraints}
                 className="w-full h-full object-cover"
             />
+            <Interviewer />
         </section>
     </>
   )
