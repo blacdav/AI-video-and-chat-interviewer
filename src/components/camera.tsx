@@ -10,7 +10,7 @@ const Camera = () => {
 
   return (
     <>
-        <section className="col-span-12 lg:col-span-9 row-span-5 lg:row-span-8 bg-white text-black rounded-2xl overflow-hidden">
+        <section className="relative col-span-12 lg:col-span-9 row-span-5 lg:row-span-8 bg-white text-black rounded-2xl overflow-hidden">
             <Webcam
                 onUserMediaError={(err) => console.error("Webcam error", err)}
                 disablePictureInPicture={true}
