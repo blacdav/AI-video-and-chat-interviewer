@@ -18,6 +18,13 @@ const Camera = () => {
                 className="w-full h-full object-cover"
             />
             <Interviewer />
+            <div className="absolute top-4 left-4 flex gap-2 text-white">
+                <img src="/assets/react.svg" alt="user photo" />
+                <div>
+                    <p className="font-semibold text-lg">Seo Jan Im</p>
+                    <small className="text-xs">Talent</small>
+                </div>
+            </div>
         </section>
     </>
   )
